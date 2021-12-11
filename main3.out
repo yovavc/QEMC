@@ -1,0 +1,14 @@
+C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.2\helpers\pydev\_pydevd_bundle\pydevd_resolver.py:138: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if found.get(name) is not 1:
+pydev debugger: process 7088 is connecting
+
+[[[4.98569779 4.15536673 3.12836223]
+  [2.14518236 6.0040863  5.63084668]
+  [0.33990024 1.19829903 6.14421208]]]
+[0.01592108 0.24536476 0.02152614 0.33174606 0.00998547 0.15388924
+ 0.01350089 0.20806635]
+ 0: ??H??Rot(4.99, 4.16, 3.13)???? Probs 
+ 1: ??H??Rot(2.15, 6, 5.63)??????? Probs 
+ 2: ??H??Rot(0.34, 1.2, 6.14)????? Probs 
+
+Backend TkAgg is interactive backend. Turning interactive mode on.
