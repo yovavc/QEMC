@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06ede2fd-89d3-40d2-8338-9d8e36a4b9eb" name="Default Changelist" comment="" />
+    <list default="true" id="06ede2fd-89d3-40d2-8338-9d8e36a4b9eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/create_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/max_cut_exhaustive_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/show_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goemans-Williamson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Goemans-Williamson.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/no_ent_circular.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="901">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#18#41#0" expanded="true" />
               </folding>
@@ -25,10 +32,66 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Goemans-Williamson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="58" column="16" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="16" />
+            <state relative-caret-position="472">
+              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+              <folding>
+                <element signature="e#264#279#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/show_graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="e#1#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/max_cut_exhaustive_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/max_cut_exhaustive_search_class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runner.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -51,12 +114,16 @@
       <find>graph</find>
       <find>logger</find>
       <find>circuit</find>
+      <find>add_argument</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>logger.info</replace>
       <replace>logging</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -76,9 +143,21 @@
         <option value="$PROJECT_DIR$/runMultiple3.py" />
         <option value="$PROJECT_DIR$/runMultiple4.py" />
         <option value="$PROJECT_DIR$/main4.py" />
-        <option value="$PROJECT_DIR$/Goemans-Williamson.py" />
         <option value="$PROJECT_DIR$/main3.py" />
         <option value="$PROJECT_DIR$/no_ent_circular.py" />
+        <option value="$PROJECT_DIR$/runner.py" />
+        <option value="$PROJECT_DIR$/show_graph.py" />
+        <option value="$PROJECT_DIR$/create_graph.py" />
+        <option value="$PROJECT_DIR$/max_cut_exhaustive_search_class.py" />
+        <option value="$PROJECT_DIR$/max_cut_exhaustive_search.py" />
+        <option value="$PROJECT_DIR$/Goemans-Williamson.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -88,6 +167,7 @@
     <option name="width" value="2910" />
     <option name="height" value="1560" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -112,11 +192,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yovav\PycharmProjects\muxcut" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yovav\PycharmProjects\muxcut\Graphs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yovav\PycharmProjects\muxcut" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -131,28 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.no_ent_circular">
-    <configuration name="ES" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="muxcut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ES.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Goemans-Williamson">
     <configuration name="Goemans-Williamson" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="muxcut" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,7 +225,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Goemans-Williamson.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="C:\Users\yovav\PycharmProjects\muxcut\vertices_16_index_0.g6" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="create_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="muxcut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_graph.py" />
+      <option name="PARAMETERS" value="5 16" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -438,6 +518,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="max_cut_exhaustive_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="muxcut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/max_cut_exhaustive_search.py" />
+      <option name="PARAMETERS" value="&quot;C:\Users\yovav\PycharmProjects\muxcut\vertices_16_index_0.g6&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="no_ent_circular" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="muxcut" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -459,7 +560,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="runMultiple3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="show_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="muxcut" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -471,29 +572,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runMultiple3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="runMultiple4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="muxcut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runMultiple4.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/show_graph.py" />
+      <option name="PARAMETERS" value="&quot;C:\Users\yovav\PycharmProjects\muxcut\vertices_32_index_0.g6&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -514,19 +594,19 @@
       <item itemvalue="Python.main6" />
       <item itemvalue="Python.main7NoInt" />
       <item itemvalue="Python.main7" />
-      <item itemvalue="Python.ES" />
       <item itemvalue="Python.Goemans-Williamson" />
-      <item itemvalue="Python.runMultiple3" />
-      <item itemvalue="Python.runMultiple4" />
       <item itemvalue="Python.no_ent_circular" />
+      <item itemvalue="Python.create_graph" />
+      <item itemvalue="Python.show_graph" />
+      <item itemvalue="Python.max_cut_exhaustive_search" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.no_ent_circular" />
         <item itemvalue="Python.Goemans-Williamson" />
-        <item itemvalue="Python.runMultiple4" />
-        <item itemvalue="Python.runMultiple3" />
-        <item itemvalue="Python.ES" />
+        <item itemvalue="Python.max_cut_exhaustive_search" />
+        <item itemvalue="Python.create_graph" />
+        <item itemvalue="Python.show_graph" />
+        <item itemvalue="Python.no_ent_circular" />
       </list>
     </recent_temporary>
   </component>
@@ -554,13 +634,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13076015" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13076015" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831088" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26962727" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4551943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39809674" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,6 +657,41 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>max_cut_binary_string = scores[np.argmax(scores[:,2])][1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>max_cut_binary_string = scores[np.argmax(scores[:,2])]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>scores = np.array(scores)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>scores[2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>scores[:,2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>scores[:2][0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>scores[:2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>GraphColoringsMax[GraphColoringsMax == 1]</expression-string>
         <language-id>Python</language-id>
@@ -834,20 +950,66 @@
     <entry file="file://$PROJECT_DIR$/main3.out">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/runner.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/no_ent_circular.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#18#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/create_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max_cut_exhaustive_search_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max_cut_exhaustive_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Goemans-Williamson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="16" />
+        <state relative-caret-position="472">
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+          <folding>
+            <element signature="e#264#279#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

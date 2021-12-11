@@ -8,16 +8,12 @@
 """
 Goemans-Williamson classical algorithm for MaxCut
 """
-
+import argparse
 from typing import Tuple
 
 import cvxpy as cvx
 import networkx as nx
 import numpy as np
-import random
-import matplotlib.pyplot as plt
-from quantumflow.utils import from_graph6
-
 
 def goemans_williamson(graph: nx.Graph) -> Tuple[np.ndarray, float, float]:
     """
@@ -56,72 +52,22 @@ def goemans_williamson(graph: nx.Graph) -> Tuple[np.ndarray, float, float]:
     return colors, score, bound
 
 
-def create_graph(nodes, node_number_of_connection):
-    # Creating a node list
-    node_list = list(range(0, nodes))
-
-    # creating graph object
-    maxcut_graph = nx.Graph()
-
-    # here we create a random graph, but since the graph might not be connected we keep trying to create graph until
-    # we get a connected graph
-    while(True):
-        # Connecting node to other "node_number_of_connection" random nodes
-        for node in node_list:
-            # Creating a copy list and removing the subject node so it wont connect to himself
-            temp_node_list = node_list.copy()
-            temp_node_list.remove(node)
-            for j in range(0, node_number_of_connection):
-
-                chosen_node = random.choice(temp_node_list)
-                # Creating a random edge
-                maxcut_graph.add_edge(node, chosen_node)
-
-                # removing chosen node so they wont get selected twice
-                temp_node_list.remove(chosen_node)
-
-        # Checking if the graph is connect (no ilands in the graph)
-        if nx.is_connected(maxcut_graph):
-            print("graph not connected, trying again")
-            break
-    return maxcut_graph
-
+parser = argparse.ArgumentParser(description="List fish in aquarium.")
+parser.add_argument("fileName", type=str)
 
 if __name__ == '__main__':
     # Quick test of GW code
- #   for i in range(0, 1000):
-    G = from_graph6(r"My]WObEnkmHl}i}\_")    # 14 nodes
-    g = create_graph(2**3, 2)
-    nx.write_graph6(g, 'anedge.g6')
-    g1 = nx.read_graph6('anedge.g6')
-    nx.draw(g1)
-    plt.show()
-    laplacian = np.array(0.25 * nx.laplacian_matrix(G).todense())
-    bound = goemans_williamson(G)[2]
-    assert np.isclose(bound, 36.25438489966327)
-    print(goemans_williamson(G))
-    scores = [goemans_williamson(G)[1] for n in range(100)]
-    assert max(scores) >= 34
-    print(min(scores), max(scores))
-    exit()
-
-    g = nx.Graph()
-    g.add_edge(0, 1)
-    g.add_edge(1, 2)
-    g.add_edge(2, 0)
-
-    nx.write_graph6(g, 'anedge.g6')
-    g1 = nx.read_graph6('anedge.g6')
-
-    nx.draw(g1)
-    plt.show()
-    laplacian = np.array(0.25 * nx.laplacian_matrix(G).todense())
-    bound = goemans_williamson(G)[2]
-
-    assert np.isclose(bound, 36.25438489966327)
-    print(goemans_williamson(G))
-
-    scores = [goemans_williamson(G)[1] for n in range(100)]
-    assert max(scores) >= 34
-
-    print(min(scores), max(scores))
+    args = parser.parse_args()
+    G = nx.read_graph6(args.fileName)
+    scores = []
+    bounds = []
+    colors = []
+    for n in range(100):
+        color, score, bound = goemans_williamson(G)
+        colors.append(color)
+        bounds.append(bound)
+        scores.append(score)
+    max_color = colors[scores.index(max(scores))]
+    print("minScore:"+ str(min(scores))+",maxScore:" + str(max(scores)) + ",maxColor:" + str(max_color)
+          +",group0Count:" + str(np.count_nonzero(max_color == -1)) + ",group1Count:"
+          + str(np.count_nonzero(max_color == 1)))
