@@ -15,6 +15,7 @@ import cvxpy as cvx
 import networkx as nx
 import numpy as np
 
+
 def goemans_williamson(graph: nx.Graph) -> Tuple[np.ndarray, float, float]:
     """
     The Goemans-Williamson algorithm for solving the maxcut problem.
@@ -54,20 +55,37 @@ def goemans_williamson(graph: nx.Graph) -> Tuple[np.ndarray, float, float]:
 
 parser = argparse.ArgumentParser(description="List fish in aquarium.")
 parser.add_argument("fileName", type=str)
+parser.add_argument("gt", type=int)
 
 if __name__ == '__main__':
     # Quick test of GW code
+    max0 = 0
+    max1 = 0
+    max_color = None
     args = parser.parse_args()
     G = nx.read_graph6(args.fileName)
     scores = []
     bounds = []
     colors = []
-    for n in range(100):
+    iterations = 0
+    while True:
+    # for n in range(100):
+        iterations += 1
         color, score, bound = goemans_williamson(G)
         colors.append(color)
         bounds.append(bound)
         scores.append(score)
-    max_color = colors[scores.index(max(scores))]
-    print("minScore:"+ str(min(scores))+",maxScore:" + str(max(scores)) + ",maxColor:" + str(max_color)
-          +",group0Count:" + str(np.count_nonzero(max_color == -1)) + ",group1Count:"
-          + str(np.count_nonzero(max_color == 1)))
+
+        max_color = colors[scores.index(max(scores))]
+
+        max0 = np.count_nonzero(max_color == -1)
+        max1 = np.count_nonzero(max_color == 1)
+        max_color = colors[scores.index(max(scores))]
+
+        max_group = max([max0, max1])
+        if max_group == args.gt:
+            break
+
+    print("minScore:" + str(min(scores))+",maxScore:" + str(max(scores)) + ",maxColor:" + str(max_color)
+          + ",group0Count:" + str(max0) + ",group1Count:"
+          + str(max1) + ",iterations:" + str(iterations))

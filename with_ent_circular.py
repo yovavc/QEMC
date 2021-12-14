@@ -25,15 +25,11 @@ dev = qml.device('default.qubit', wires=n_wires)
 def circuit(params):
     for index in range(n_wires):
         qml.Hadamard(index)
-    for index in range(n_wires):
-        qml.Rot(params[0][index][0], params[0][index][1], params[0][index][2], wires=index)
-
-        # qml.Rot(params[0][1][0], params[0][1][1], params[0][1][2], wires=1)
-        # qml.Rot(params[0][2][0], params[0][2][1], params[0][2][2], wires=2)
+    StronglyEntanglingLayers(params, wires=list(range(n_wires)))
     return qml.probs(wires=range(n_wires))
 
 
-init_weights = strong_ent_layers_uniform(n_layers=1, n_wires=n_wires)
+init_weights = strong_ent_layers_uniform(n_layers=2, n_wires=n_wires)
 params = init_weights
 print(init_weights)
 print(circuit(init_weights))
@@ -143,7 +139,7 @@ opt = qml.AdamOptimizer(stepsize=0.1, beta1=0.9, beta2=0.1, eps=1e-08) # find th
 #opt = qml.AdamOptimizer(stepsize=0.1, beta1=0.7, beta2=0.1, eps=1e-08) # find the solution but does not converge to it
 #opt = qml.AdagradOptimizer(stepsize=0.05, eps=1e-08)
 # set the number of steps
-steps = 20000
+steps = 70000
 # set the initial parameter values
 #params = np.random.uniform(size=(num_layers, num_helper_qubits*2, 3))
 params = init_weights

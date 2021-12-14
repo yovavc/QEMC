@@ -1,5 +1,5 @@
 # insert imports
-
+import argparse
 import pennylane as qml
 from pennylane import numpy as np
 from pennylane.templates.layers import StronglyEntanglingLayers
@@ -13,18 +13,23 @@ import matplotlib.pyplot as plt
 
 import random
 
-n_wires = 3
+parser = argparse.ArgumentParser(description="List fish in aquarium.")
+parser.add_argument("wires", type=int)
+args = parser.parse_args()
+
+n_wires = args.wires
+expected_b = 2 ** n_wires
 dev = qml.device('default.qubit', wires=n_wires)
 
 @qml.qnode(dev)
 def circuit(params):
-        qml.Hadamard(0)
-        qml.Hadamard(1)
-        qml.Hadamard(2)
-        qml.Rot(params[0][0][0], params[0][0][1], params[0][0][2], wires=0)
-        qml.Rot(params[0][1][0], params[0][1][1], params[0][1][2], wires=1)
-        qml.Rot(params[0][2][0], params[0][2][1], params[0][2][2], wires=2)
-        return qml.probs(wires=range(n_wires))
+    for index in range(n_wires):
+        qml.Hadamard(index)
+    for index in range(n_wires):
+        qml.Rot(params[0][index][0], params[0][index][1], params[0][index][2], wires=index)
+
+
+    return qml.probs(wires=range(n_wires))
 
 
 init_weights = strong_ent_layers_uniform(n_layers=1, n_wires=n_wires)
@@ -35,6 +40,7 @@ print(circuit(init_weights))
 print(circuit.draw())
 
 vertex_num = 2 ** n_wires
+
 print(vertex_num)
 
 list_a = list(range(0, vertex_num))
@@ -68,7 +74,7 @@ def cost(params):
 def probs2binary(probs_results):
     binary_results = probs_results
     # binary_results = [1 if prob >= 2/vertex_num else 0 for prob in probs_results]
-    binary_results = [1 if prob > 1 / vertex_num else 0 for prob in probs_results]
+    binary_results = [1 if prob > 1/(2 * expected_b) else 0 for prob in probs_results]
     # binary_results = [round (prob+ 1/vertex_num) for prob in probs_results]
 
     #     new_prices = [round(price - (price * 10 / 100), 2) if price > 50 else price for price in prices]
@@ -91,7 +97,7 @@ def cost_per_assignment(  probs_results):
         # Note that we enter probs_results as input and not binary_results
         # total_cost += (abs(binary_results[vertex1]-binary_results[vertex2])-0.25)**2
         # total_cost += (abs(binary_results[vertex1]-binary_results[vertex2])-1)**2
-        total_cost += (abs(probs_results[vertex1] - probs_results[vertex2]) - (2 / (vertex_num))) ** 2
+        total_cost += (abs(probs_results[vertex1] - probs_results[vertex2]) - (1 / expected_b)) ** 2
         # total_cost += abs(abs(probs_results[vertex1]-probs_results[vertex2])-(2/(vertex_num)))
         # total_cost += ((probs_results[vertex1]-probs_results[vertex2])**2-(2/(vertex_num))**2)**2
         # total_cost += ((probs_results[vertex1]-probs_results[vertex2])**2-(2/(vertex_num))**2)**2
@@ -102,10 +108,10 @@ def cost_per_assignment(  probs_results):
 def cost_from_clean_sol(probs_results):
     total_cost = 0
     for prob in probs_results:
-        if (prob < 1 / vertex_num):
+        if (prob < 1/(2 * expected_b)):
             total_cost += prob ** 2
         else:
-            total_cost += (prob - (2 / (vertex_num))) ** 2
+            total_cost += (prob - (1/expected_b)) ** 2
     return total_cost
 
 
@@ -136,7 +142,7 @@ opt = qml.AdamOptimizer(stepsize=0.1, beta1=0.9, beta2=0.1, eps=1e-08) # find th
 #opt = qml.AdamOptimizer(stepsize=0.1, beta1=0.7, beta2=0.1, eps=1e-08) # find the solution but does not converge to it
 #opt = qml.AdagradOptimizer(stepsize=0.05, eps=1e-08)
 # set the number of steps
-steps = 300000
+steps = 20000
 # set the initial parameter values
 #params = np.random.uniform(size=(num_layers, num_helper_qubits*2, 3))
 params = init_weights
@@ -228,7 +234,7 @@ plt.ylabel(r'$Cost$', fontsize=14)
 plt.xlabel('# steps', fontsize=16)
 
 x_max = 1.3 * max_cut_found_at
-plt.xlim(xmin=0, xmax=x_max)
+# plt.xlim(xmin=0, xmax=x_max)
 # plt.subplots_adjust(top=1, bottom=0.4, left=0.10, right=1.5, hspace=0.4,
 #                     wspace=0.35)
 
@@ -240,7 +246,7 @@ plt.ylabel(r'$Cost$', fontsize=14)
 # plt.yscale("log")
 plt.xlabel('# steps', fontsize=16)
 
-plt.xlim(xmin=0, xmax=x_max)
+# plt.xlim(xmin=0, xmax=x_max)
 # plt.subplots_adjust(top=1, bottom=0.4, left=0.10, right=1.5, hspace=0.4,
 #                     wspace=0.35)
 
