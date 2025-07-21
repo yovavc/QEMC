@@ -313,6 +313,15 @@ The project includes comprehensive result analysis tools:
    - Successful hardware validation on IBM Quantum devices
    - Scalability demonstrations up to 8192 nodes
 
+### Performance Comparison
+
+![QEMC vs GW Performance](figurs/Slide6.jpg)
+
+The figure above shows the relative performance of QEMC compared to the Goemans-Williamson algorithm across different graph sizes:
+- **Top plot**: Maximum cut performance ratio (Max(QEMC)/Max(GW))
+- **Bottom plot**: Average performance ratio (Avg(QEMC)/Avg(GW))
+- Results demonstrate that QEMC achieves near-optimal performance (ratio ≈ 1.0) across all tested graph sizes from 16 to 2048 nodes
+
 ## Citation
 
 If you use this code in your research, please cite:
