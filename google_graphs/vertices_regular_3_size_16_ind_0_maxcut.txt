@@ -1,0 +1,1 @@
+global max cut: 21 for combination 9557 0b10010101010101

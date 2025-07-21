@@ -1,0 +1,1 @@
+global max cut: 19 for combination 731 0b1011011011

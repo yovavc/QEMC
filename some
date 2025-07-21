@@ -1,0 +1,7 @@
+select count(*) from iterations where iterations.experimentId = 129159;
+select count(*) from iterations where iterations.experimentId = 129158;
+select count(*) from iterations where iterations.experimentId = 129153;
+select count(*) from iterations where iterations.experimentId = 129152;
+select count(*) from iterations where iterations.experimentId = 129151;
+select count(*) from iterations where iterations.experimentId = 129150;
+select count(*) from iterations where iterations.experimentId = 129149;

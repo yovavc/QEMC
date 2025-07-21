@@ -1,0 +1,7 @@
+PennyLane~=0.31.0
+
+qiskit==0.31.0
+qiskit-terra>=0.24.0
+qiskit>=0.32
+requests>=2.31
+urllib3>=1.26.0

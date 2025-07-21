@@ -1,0 +1,1 @@
+global max cut: 33 for combination 6894970 0b11010010011010101111010

@@ -1,0 +1,1 @@
+global max cut: 4 for combination 3 0b11

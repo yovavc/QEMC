@@ -68,24 +68,26 @@ if __name__ == '__main__':
     bounds = []
     colors = []
     iterations = 0
-    while True:
-    # for n in range(100):
+    # while True:
+    for n in range(10):
         iterations += 1
         color, score, bound = goemans_williamson(G)
-        colors.append(color)
-        bounds.append(bound)
-        scores.append(score)
+        # colors.append(color)
+        # bounds.append(bound)
+        # scores.append(score)
 
-        max_color = colors[scores.index(max(scores))]
+        # max_color = colors[scores.index(max(scores))]
+        #
+        # max0 = np.count_nonzero(max_color == -1)
+        # max1 = np.count_nonzero(max_color == 1)
+        # max_color = colors[scores.index(max(scores))]
 
-        max0 = np.count_nonzero(max_color == -1)
-        max1 = np.count_nonzero(max_color == 1)
-        max_color = colors[scores.index(max(scores))]
+        max_group = max1
+        print("index:" + str(n) + " current score:" + str(score) + " color:" + color)
+        # print("current score: " + str(score))
+        # if score >= args.gt:
+        #     break
 
-        max_group = max([max0, max1])
-        if max_group == args.gt:
-            break
-
-    print("minScore:" + str(min(scores))+",maxScore:" + str(max(scores)) + ",maxColor:" + str(max_color)
-          + ",group0Count:" + str(max0) + ",group1Count:"
-          + str(max1) + ",iterations:" + str(iterations))
+    # print("minScore:" + str(min(scores))+",maxScore:" + str(max(scores)) + ",maxColor:" + str(max_color)
+    #       + ",group0Count:" + str(max0) + ",group1Count:"
+    #       + str(max1) + ",iterations:" + str(iterations))

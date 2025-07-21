@@ -18,7 +18,7 @@ parser.add_argument("wires", type=int)
 args = parser.parse_args()
 
 n_wires = args.wires
-expected_b = 2 ** n_wires
+expected_b = 2 ** (n_wires - 1)
 dev = qml.device('default.qubit', wires=n_wires)
 
 @qml.qnode(dev)
@@ -67,7 +67,7 @@ def cost(params):
 
     # print("Cut = {:5d}".format(cut(binary_results)))
     print("Cut = {:5d}".format(cut_value))
-
+    print("cost:" + str(cost_val))
     return cost_val
 
 
@@ -88,7 +88,7 @@ def probs2binary(probs_results):
     return binary_results
 
 
-def cost_per_assignment(  probs_results):
+def cost_per_assignment(probs_results):
     total_cost = 0
     for edge in graph:
         vertex1 = edge[0]
@@ -142,13 +142,13 @@ opt = qml.AdamOptimizer(stepsize=0.1, beta1=0.9, beta2=0.1, eps=1e-08) # find th
 #opt = qml.AdamOptimizer(stepsize=0.1, beta1=0.7, beta2=0.1, eps=1e-08) # find the solution but does not converge to it
 #opt = qml.AdagradOptimizer(stepsize=0.05, eps=1e-08)
 # set the number of steps
-steps = 20000
+steps = 50000
 # set the initial parameter values
 #params = np.random.uniform(size=(num_layers, num_helper_qubits*2, 3))
 params = init_weights
 print(params)
 
-step_jumps = 10
+step_jumps = 1
 
 print(steps)
 x0 = np.arange(start=0, stop=steps+1, step=step_jumps)

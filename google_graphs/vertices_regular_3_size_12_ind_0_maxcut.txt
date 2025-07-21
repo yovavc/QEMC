@@ -1,0 +1,1 @@
+global max cut: 16 for combination 343 0b101010111

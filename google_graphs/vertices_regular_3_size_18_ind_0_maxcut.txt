@@ -1,0 +1,1 @@
+global max cut: 24 for combination 85545 0b10100111000101001

@@ -60,6 +60,22 @@ def create_graph_by_article(nodes):
     return maxcut_graph
 
 
+def create_circle_graph_by_article(nodes):
+    # Creating a node list
+    node_list = list(range(0, nodes))
+
+    list_a = list(range(0, nodes))
+    list_b = list(range(1, nodes)) + [0]
+    graph = list(zip(list_a, list_b))
+
+    maxcut_graph = nx.Graph()
+    for arc in graph:
+        maxcut_graph.add_edge(arc[0], arc[1])
+    # creating graph object
+
+    return maxcut_graph
+
+
 parser = argparse.ArgumentParser(description="List fish in aquarium.")
 parser.add_argument("count", type=int)
 parser.add_argument("size", type=int, help="graph is 2 in the power of size")
@@ -67,6 +83,11 @@ args = parser.parse_args()
 
 for i in range(args.count):
     graph = create_graph_by_article(args.size)
-    string = "vertices_" + str(args.size) + "_index_" + str(i) + ".g6"
+
+    string = "graphs/vertices_" + str(args.size) + "_index_" + str(i) + ".g6"
     nx.write_graph6(graph, string)
+
+graph = create_circle_graph_by_article(args.size)
+string = "graphs/vertices_circular_" + str(args.size) + "_index" + ".g6"
+nx.write_graph6(graph, string)
 

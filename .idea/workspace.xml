@@ -2,106 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ede2fd-89d3-40d2-8338-9d8e36a4b9eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/with_ent_circular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Adi_GW.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DbAdapterGraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DrawGraphFromDb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adi_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convert_to_g6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create_graph_regular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbAdapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filterFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/no_ent_general.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re_d/vertices_regular_9_size_16.g6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_1024.g6.gw_.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_128.g6.gw_.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_16.g6.gw_.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_256.g6.gw_.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_32.g6.gw_.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_512.g6.gw_.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_64.g6.gw_.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graphs/vertices_regular_9_size_1024.g6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graphs/vertices_regular_9_size_128.g6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graphs/vertices_regular_9_size_16.g6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graphs/vertices_regular_9_size_256.g6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graphs/vertices_regular_9_size_32.g6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graphs/vertices_regular_9_size_512.g6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_graphs/vertices_regular_9_size_64.g6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runner_GW.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runner_general1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runner_general3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runner_general4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runner_general5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runner_general6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runner_general_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runner_general_up_to_v_div_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runner_show_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/show_as_archs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/with_ent_general.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/with_ent_general_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/with_ent_general_wiht_plots.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Goemans-Williamson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Goemans-Williamson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/max_cut_exhaustive_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner_es.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/max_cut_exhaustive_search_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main3.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/max_cut_exhaustive_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/max_cut_exhaustive_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/no_ent_circular.py" beforeDir="false" afterPath="$PROJECT_DIR$/no_ent_circular.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner_es.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner_es.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/show_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertices_16_index_0.g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertices_16_index_1.g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertices_16_index_2.g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertices_16_index_3.g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertices_16_index_4.g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertices_32_index_0.g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertices_32_index_1.g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertices_32_index_2.g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertices_32_index_3.g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertices_32_index_4.g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/with_ent_circular.py" beforeDir="false" afterPath="$PROJECT_DIR$/with_ent_circular.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/with_ent_out6_6.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1326994" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no_ent_circular.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#17#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no_ent_out6_9.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124574" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/with_ent_circular.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="141" column="9" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/max_cut_exhaustive_search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1916895975/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="3741" column="8" selection-start-line="3741" selection-start-column="8" selection-end-line="3741" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Goemans-Williamson.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/runner_es.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,20 +78,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>probs2binary</find>
-      <find>cost</find>
-      <find>ogger.info</find>
-      <find>costs_arr</find>
-      <find>print</find>
-      <find>cost_from_clean_sol</find>
-      <find>graph</find>
       <find>logger</find>
-      <find>circuit</find>
       <find>add_argument</find>
-      <find>vertex_num</find>
       <find>n</find>
       <find>steps</find>
       <find>n_layers</find>
+      <find>obs2binary</find>
+      <find>expected_b</find>
+      <find>cost_from_clean_solution</find>
+      <find>create_graph_by_article</find>
+      <find>vertex_num</find>
+      <find>n_wires</find>
+      <find>cost_per_assignment</find>
+      <find>probs2binary</find>
+      <find>graph</find>
+      <find>cost_from_clean_sol</find>
+      <find>circuit</find>
+      <find>x_all</find>
+      <find>strong_ent_layers_uniform</find>
+      <find>cost</find>
+      <find>970</find>
+      <find>Adam</find>
+      <find>max_cut found at = 14</find>
+      <find>max_cut found at = 8</find>
+      <find>max_cut found at = 21</find>
+      <find>max_cut found at = 57</find>
+      <find>max_cut found at = 34</find>
+      <find>adam</find>
+      <find>clf</find>
+      <find>cost_reversed</find>
+      <find>def circuit</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -135,6 +117,22 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DrawGraphFromDb.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/with_ent_general_db_simulation.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HWRuns.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShotsSymRuns.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/with_ent_general_db.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/regular9_graph4_GW/vertices_regular_9_size_3072.g6.gw_.txt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -155,33 +153,60 @@
         <option value="$PROJECT_DIR$/runMultiple4.py" />
         <option value="$PROJECT_DIR$/main4.py" />
         <option value="$PROJECT_DIR$/main3.py" />
-        <option value="$PROJECT_DIR$/show_graph.py" />
-        <option value="$PROJECT_DIR$/create_graph.py" />
         <option value="$PROJECT_DIR$/max_cut_exhaustive_search_class.py" />
-        <option value="$PROJECT_DIR$/max_cut_exhaustive_search.py" />
-        <option value="$PROJECT_DIR$/Goemans-Williamson.py" />
-        <option value="$PROJECT_DIR$/no_ent_circular.py" />
-        <option value="$PROJECT_DIR$/runner.py" />
-        <option value="$PROJECT_DIR$/with_ent_circular.py" />
         <option value="$PROJECT_DIR$/max_cut_exhaustive_search_class (2).py" />
+        <option value="$PROJECT_DIR$/max_cut_exhaustive_search.py" />
+        <option value="$PROJECT_DIR$/no_ent_circular_general.py" />
+        <option value="$PROJECT_DIR$/runner4.py" />
+        <option value="$PROJECT_DIR$/with_ent_circular_general.py" />
+        <option value="$PROJECT_DIR$/runner3.py" />
+        <option value="$PROJECT_DIR$/adi_version.py" />
+        <option value="$PROJECT_DIR$/create_graph.py" />
         <option value="$PROJECT_DIR$/runner_es.py" />
+        <option value="$PROJECT_DIR$/runner_show_graph.py" />
+        <option value="$PROJECT_DIR$/runner.py" />
+        <option value="$PROJECT_DIR$/runner_general_graph.py" />
+        <option value="$PROJECT_DIR$/with_ent_circular.py" />
+        <option value="$PROJECT_DIR$/no_ent_circular.py" />
+        <option value="$PROJECT_DIR$/runner_general_up_to_v_div_2.py" />
+        <option value="$PROJECT_DIR$/show_as_archs.py" />
+        <option value="$PROJECT_DIR$/no_ent_general.py" />
+        <option value="$PROJECT_DIR$/show_graph.py" />
+        <option value="$PROJECT_DIR$/create_graph_regular.py" />
+        <option value="$PROJECT_DIR$/Goemans-Williamson.py" />
+        <option value="$PROJECT_DIR$/runner_GW.py" />
+        <option value="$PROJECT_DIR$/Adi_GW.py" />
+        <option value="$PROJECT_DIR$/filterFiles.py" />
+        <option value="$PROJECT_DIR$/plot.py" />
+        <option value="$PROJECT_DIR$/plot3.py" />
+        <option value="$PROJECT_DIR$/with_ent_general.py" />
+        <option value="$PROJECT_DIR$/convert_to_g6.py" />
+        <option value="$PROJECT_DIR$/runner_general.py" />
+        <option value="$PROJECT_DIR$/with_ent_general_db.py" />
+        <option value="$PROJECT_DIR$/plot2.py" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/muxcut.iml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="2123" />
+    <option name="x" value="1039" />
+    <option name="y" value="25" />
+    <option name="width" value="1941" />
+    <option name="height" value="2124" />
   </component>
+  <component name="ProjectId" id="26erS8VY4pTPiDmFlnec1aHjmzk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -202,33 +227,32 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\yovav\PycharmProjects\muxcut\Graphs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="U:\My Documents\muxcut" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/regular9_graph4" />
+      <recent name="$PROJECT_DIR$/re" />
       <recent name="C:\Users\yovav\PycharmProjects\muxcut" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/results" />
+      <recent name="C:\Users\yovav\PycharmProjects\muxcut" />
+      <recent name="C:\Users\yovav\PycharmProjects\muxcut\Graphs" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.runner_es">
-    <configuration name="main2" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main2.out" is_save="true" />
+  <component name="RunManager" selected="Python.with_ent_general_wiht_plots">
+    <configuration name="DrawGraphFromDb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="muxcut" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,7 +264,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DrawGraphFromDb.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,8 +273,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main2NoInt" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main2NoInt.out" is_save="true" />
+    <configuration name="Goemans-Williamson" type="PythonConfigurationType" factoryName="Python">
       <module name="muxcut" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,7 +285,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main2NoInt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Goemans-Williamson.py" />
+      <option name="PARAMETERS" value="graphs/vertices_32_index_1.g6 5" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HWRuns (1)" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
+      <module name="muxcut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HWRuns.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,8 +315,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main3" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main3.out" is_save="true" />
+    <configuration name="HWRuns" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="muxcut" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,7 +327,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\yovav\PycharmProjects\muxcut\no_ent_circular.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HWRuns.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,8 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main3NoInt" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main3NoInt.out" is_save="true" />
+    <configuration name="ShotsSymRuns (1)" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <module name="muxcut" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,8 +348,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main3NoInt.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ShotsSymRuns.py" />
+      <option name="PARAMETERS" value="with_ent_general_db_simulation.py 4 regular_graphs/vertices_regular_3_size_8.g6 1 0.8 2000 8 sym shots_vs_mean_gw_sym 9.2 10" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -315,8 +357,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main4" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main4.out" is_save="true" />
+    <configuration name="ShotsSymRuns" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="muxcut" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,8 +369,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main4.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ShotsSymRuns.py" />
+      <option name="PARAMETERS" value="with_ent_general_db_simulation.py 4 regular_graphs/vertices_regular_3_size_8.g6 1 0.8 2000 8 sym shots_vs_mean_gw_sym 9.2 10" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -337,8 +378,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main4NoInt" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main4NoInt.out" is_save="true" />
+    <configuration name="create_graph" type="PythonConfigurationType" factoryName="Python">
       <module name="muxcut" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,8 +390,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main4NoInt.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_graph.py" />
+      <option name="PARAMETERS" value="10 32" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -359,8 +399,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main5" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main5.out" is_save="true" />
+    <configuration name="max_cut_exhaustive_search" type="PythonConfigurationType" factoryName="Python">
       <module name="muxcut" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -372,8 +411,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main5.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/max_cut_exhaustive_search.py" />
+      <option name="PARAMETERS" value="google_graphs/vertices_regular_3_size_16_ind_0.g6" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -381,201 +420,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main5NoInt" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main5NoInt.out" is_save="true" />
-      <module name="muxcut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main5NoInt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main6" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main6.out" is_save="true" />
-      <module name="muxcut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main6NoInt" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main6NoInt.out" is_save="true" />
-      <module name="muxcut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main6NoInt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main7" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main7.out" is_save="true" />
-      <module name="muxcut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main7NoInt" type="PythonConfigurationType" factoryName="Python">
-      <output_file path="$PROJECT_DIR$/main7NoInt.out" is_save="true" />
-      <module name="muxcut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main7NoInt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="max_cut_exhaustive_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="muxcut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\yovav\PycharmProjects\muxcut\runner_es.py" />
-      <option name="PARAMETERS" value="&quot;C:\Users\yovav\PycharmProjects\muxcut\vertices_32_index_0.g6&quot;" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="max_cut_exhaustive_search_class (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="muxcut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\yovav\PycharmProjects\muxcut\max_cut_exhaustive_search.py" />
-      <option name="PARAMETERS" value="vertices_16_index_0.g6" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="muxcut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="runner_es" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="muxcut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runner_es.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="show_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="show_graph" type="PythonConfigurationType" factoryName="Python">
       <module name="muxcut" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -588,7 +433,133 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/show_graph.py" />
-      <option name="PARAMETERS" value="vertices_16_index_0.g6" />
+      <option name="PARAMETERS" value="$PROJECT_DIR$/google_graphs/vertices_regular_3_size_10_ind_0.g6" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="with_ent_circular" type="PythonConfigurationType" factoryName="Python">
+      <module name="muxcut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/with_ent_circular.py" />
+      <option name="PARAMETERS" value="4" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="with_ent_general" type="PythonConfigurationType" factoryName="Python">
+      <module name="muxcut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/with_ent_general.py" />
+      <option name="PARAMETERS" value="1 graphs/vertices_4_index_9.g6" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="with_ent_general_db" type="PythonConfigurationType" factoryName="Python">
+      <module name="muxcut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/with_ent_general_db.py" />
+      <option name="PARAMETERS" value="16 google_graphs/vertices_regular_3_size_32_ind_0.g6 5 0.95 1000 768 ibm_lagos HW_run_on_ibm_lagos 42" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="with_ent_general_db_simulation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="muxcut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/with_ent_general_db_simulation.py" />
+      <option name="PARAMETERS" value="4 regular_graphs/vertices_regular_3_size_8.g6 1 0.8 2000 8 sym shots_vs_mean_gw_sym 9.2 10" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="with_ent_general_db_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="muxcut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/with_ent_general_db_test.py" />
+      <option name="PARAMETERS" value="3 google_graphs/vertices_regular_3_size_6_ind_0.g6 2 0.9 80 108 ibm_lagos HW_run_on_ibm_lagos 7" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="with_ent_general_wiht_plots" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="muxcut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/with_ent_general_wiht_plots.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -597,34 +568,33 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main2NoInt" />
-      <item itemvalue="Python.main2" />
-      <item itemvalue="Python.main3NoInt" />
-      <item itemvalue="Python.main3" />
-      <item itemvalue="Python.main4NoInt" />
-      <item itemvalue="Python.main4" />
-      <item itemvalue="Python.main5NoInt" />
-      <item itemvalue="Python.main5" />
-      <item itemvalue="Python.main6NoInt" />
-      <item itemvalue="Python.main6" />
-      <item itemvalue="Python.main7NoInt" />
-      <item itemvalue="Python.main7" />
+      <item itemvalue="Python.Goemans-Williamson" />
+      <item itemvalue="Python.HWRuns (1)" />
+      <item itemvalue="Python.ShotsSymRuns (1)" />
+      <item itemvalue="Python.create_graph" />
       <item itemvalue="Python.max_cut_exhaustive_search" />
-      <item itemvalue="Python.runner" />
-      <item itemvalue="Python.max_cut_exhaustive_search_class (2)" />
       <item itemvalue="Python.show_graph" />
-      <item itemvalue="Python.runner_es" />
+      <item itemvalue="Python.with_ent_circular" />
+      <item itemvalue="Python.with_ent_general" />
+      <item itemvalue="Python.with_ent_general_db" />
+      <item itemvalue="Python.with_ent_general_db_test" />
+      <item itemvalue="Python.DrawGraphFromDb" />
+      <item itemvalue="Python.HWRuns" />
+      <item itemvalue="Python.ShotsSymRuns" />
+      <item itemvalue="Python.with_ent_general_db_simulation" />
+      <item itemvalue="Python.with_ent_general_wiht_plots" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.runner_es" />
-        <item itemvalue="Python.max_cut_exhaustive_search_class (2)" />
-        <item itemvalue="Python.show_graph" />
-        <item itemvalue="Python.runner" />
-        <item itemvalue="Python.max_cut_exhaustive_search" />
+        <item itemvalue="Python.with_ent_general_wiht_plots" />
+        <item itemvalue="Python.DrawGraphFromDb" />
+        <item itemvalue="Python.HWRuns" />
+        <item itemvalue="Python.ShotsSymRuns" />
+        <item itemvalue="Python.with_ent_general_db_simulation" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -648,372 +618,496 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="1415" extended-state="0" />
-    <editor active="true" />
+    <frame x="693" y="17" width="1294" height="1416" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26370135" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10810811" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32831088" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4631245" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39809674" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3272147" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15451664" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33439744" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14512292" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.16336241" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Goemans-Williamson.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/no_ent_circular.py</url>
+          <line>187</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/no_ent_circular.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/no_ent_circular.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_circular.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/adi_version.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/adi_version.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_circular.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/adi_version.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_circular.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plot.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_general.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/no_ent_general.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_general.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plot.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Adi_GW.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/filterFiles.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plot3.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_general.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_general_db.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/runner_general1_beta1_beta2_test.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_general_db.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DrawGraphFromDb.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/completeRuns.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/completeRuns.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/runner_GW.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/runner_GW.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HWRuns.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_general_db_simulation.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_general_db_simulation.py</url>
+          <line>199</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DrawGraphFromDb.py</url>
+          <line>823</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DrawGraphFromDb.py</url>
+          <line>854</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_general_db_simulation.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/with_ent_general_db.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/max_cut_exhaustive_search.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="22" />
+          <line>106</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DrawGraphFromDb.py</url>
+          <line>319</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/max_cut_exhaustive_search.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/max_cut_exhaustive_search.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DrawGraphFromDb.py</url>
+          <line>822</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DrawGraphFromDb.py</url>
+          <line>861</line>
+          <option name="timeStamp" value="225" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>&quot;python with_ent_general.py &quot;+ str(t)+ &quot; &quot;</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;python with_ent_general.py &quot;+ str(t)+ &quot; &quot;+ graph</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;python with_ent_general.py &quot;
+                                + str(t)
+                                + &quot; &quot;
+                                + graph</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>max_cut_binary_string = scores[np.argmax(scores[:,2])][1]</expression-string>
+        <expression-string>black</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>max_cut_binary_string = scores[np.argmax(scores[:,2])]</expression-string>
+        <expression-string>black+1</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>scores = np.array(scores)</expression-string>
+        <expression-string>int((200/6) *(black+1))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>scores[2]</expression-string>
+        <expression-string>int((200/5) *(black+1))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>scores[:,2]</expression-string>
+        <expression-string>x_all[-1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>scores[:2][0]</expression-string>
+        <expression-string>int(int(exploded[5].split(&quot;.&quot;)[0]) /2 +1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>scores[:2]</expression-string>
+        <expression-string>exploded[5].split(&quot;.&quot;)[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>GraphColoringsMax[GraphColoringsMax == 1]</expression-string>
+        <expression-string>directory + &quot;/vertices_regular_9_size_&quot; + str(node_count) + &quot;.g6_layers_&quot; + str(layer) + &quot;_ones_&quot; + str(black) +&quot;*&quot;</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>GraphColorings[winner_index]</expression-string>
+        <expression-string>exploded[4]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out3 _0.txt" />
-    <entry file="file://$PROJECT_DIR$/out3" />
-    <entry file="file://$PROJECT_DIR$/out3_1.txt">
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_128.g6_layers_10_ones_59_7.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_128.g6_layers_10_ones_59_8.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_128.g6_layers_10_ones_59_9.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_128.g6_layers_10_ones_60_0.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_128.g6_layers_10_ones_60_1.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_128.g6_layers_10_ones_60_2.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_128.g6_layers_10_ones_60_3.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_16.g6_layers_30_ones_8_9.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_16.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_1024.g6_layers_5_ones_507_3.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_1024.g6_layers_2_ones_512_1.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_1024.g6_layers_2_ones_510_5.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_1024.g6_layers_2_ones_509_3.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_1024.g6_layers_2_ones_507_3.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_1024.g6_layers_2_ones_507_0.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_128.g6_layers_10_ones_64_0.txt.plt.png" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_plots/vertices_regular_9_size_128.g6_layers_10_ones_60_5.txt.plt.png" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/matplotlib/axes/_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3366" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out3_20.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runMultiple3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="310">
+          <caret line="500" selection-start-line="500" selection-end-line="500" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runMultiple4.py">
+    <entry file="file://$PROJECT_DIR$/filterFiles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="204">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="7" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES.py">
+    <entry file="file://$PROJECT_DIR$/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="72" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1645681937541" expanded="true" signature="2316:2412" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_32.g6.gw_.txt" />
+    <entry file="file://$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_16.g6.gw_.txt" />
+    <entry file="file://$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_64.g6.gw_.txt" />
+    <entry file="file://$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_128.g6.gw_.txt" />
+    <entry file="file://$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_256.g6.gw_.txt" />
+    <entry file="file://$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_512.g6.gw_.txt" />
+    <entry file="file://$PROJECT_DIR$/regular_graph_GW/vertices_regular_9_size_1024.g6.gw_.txt" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result/vertices_regular_9_size_16.g6_layers_5_ones_6_2.txt" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result/vertices_regular_9_size_32.g6_layers_5_ones_15_7.txt" />
+    <entry file="file://$PROJECT_DIR$/groupBy/same_number_of_size_and_layers/16_2/ones_3/vertices_regular_9_size_16.g6_layers_2_ones_3_0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="319" column="21" selection-start-line="319" selection-end-line="319" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groupBy/same_number_of_size_and_layers/16_2/ones_3/vertices_regular_9_size_16.g6_layers_2_ones_3_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groupBy/same_number_of_size_and_layers/16_2/ones_3/vertices_regular_9_size_16.g6_layers_2_ones_3_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="216" column="20" selection-start-line="216" selection-end-line="216" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groupBy/same_number_of_size_and_layers/16_2/ones_3/vertices_regular_9_size_16.g6_layers_2_ones_3_3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="437" column="21" selection-start-line="437" selection-end-line="437" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groupBy/same_number_of_size_and_layers/16_2/ones_3/vertices_regular_9_size_16.g6_layers_2_ones_3_4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groupBy/same_number_of_size_and_layers/16_2/ones_3/vertices_regular_9_size_16.g6_layers_2_ones_3_5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="1070" column="21" selection-start-line="1070" selection-end-line="1070" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groupBy/same_number_of_size_and_layers/16_2/ones_3/vertices_regular_9_size_16.g6_layers_2_ones_3_6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="670" column="21" selection-start-line="670" selection-end-line="670" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/MySQLdb/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/pennylane/templates/layers/strongly_entangling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="1757" selection-start-line="1757" selection-end-line="1757" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/pennylane/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/pennylane/operation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="445" selection-start-line="445" selection-end-line="445" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/pennylane/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="202" column="4" selection-start-line="202" selection-start-column="4" selection-end-line="202" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/pennylane/numpy/tensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="183" selection-start-line="183" selection-end-line="183" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out3_0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#18#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="51" selection-start-line="51" selection-end-line="56" />
-          <folding>
-            <element signature="e#18#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/show_graph.py">
+    <entry file="file://$PROJECT_DIR$/convert_to_g6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="26" />
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs_fromAdi/vertices_regular_9_size_1024.g6" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_from_adi/vertices_regular_9_size_1024.g6_layers_2_ones_511_0.txt" />
+    <entry file="file://$PROJECT_DIR$/with_ent_regular_graph_result_from_adi/vertices_regular_9_size_1024.g6_layers_2_ones_512_0.txt" />
+    <entry file="file://$PROJECT_DIR$/groupBy/same_number_of_size_and_layers/16_2/ones_8/vertices_regular_9_size_16.g6_layers_2_ones_8_9.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56984">
+          <caret line="3352" column="6" selection-start-line="3352" selection-start-column="6" selection-end-line="3352" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runner_general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
-            <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out0_1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out0_0.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out1_1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out1_2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out1_6.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out4_6.txt">
+    <entry file="file://$PROJECT_DIR$/with_ent_general_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3264" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out5_7.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out6_5.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42923" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out6_6.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117927" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out6_1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80051" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out6_9.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70106" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main3.out">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/muxcut_try_64_vertices-circular-with_Hadamards-Copy5 (2).ipynb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/with_ent_out1_3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/with_ent_out1_1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/with_ent_out2_1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/with_ent_out1_2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1344" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/with_ent_out3_1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/with_ent_out6_9.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1327116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/with_ent_out6_8.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1327116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/with_ent_out6_7.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1290648">
-          <caret line="2146" selection-start-line="2146" selection-end-line="2146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/with_ent_out6_6.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326994" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no_ent_out6_9.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124574" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/with_ent_circular.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="141" column="9" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Goemans-Williamson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/no_ent_circular.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="612">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
           <folding>
             <element signature="e#17#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/max_cut_exhaustive_search_class.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/mariadb/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runner_general_graph.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/named_colors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="516">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/with_ent_general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2110">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#17#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1916895975/builtins.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="3741" column="8" selection-start-line="3741" selection-start-column="8" selection-end-line="3741" selection-end-column="8" />
+        <state relative-caret-position="383">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$PROJECT_DIR$/plot2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/max_cut_exhaustive_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runner_es.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="996">
+          <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
         </state>
       </provider>
     </entry>
